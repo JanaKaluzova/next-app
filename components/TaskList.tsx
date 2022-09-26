@@ -6,7 +6,7 @@ interface Props {
 
 export const TaskList: React.FC<Props> = ({ tasks }) => {
   return (
-    <ul className="class-list">
+    <ul className="task-list">
       {tasks.map((task) => {
         return (
           <li className="task-list-item" key={task.id}>
