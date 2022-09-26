@@ -3,4 +3,4 @@ CREATE TABLE IF NOT EXISTS tasks (
     title VARCHAR(255) NOT NULL,
     task_status VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
-)
+);
