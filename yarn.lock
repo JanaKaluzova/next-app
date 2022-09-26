@@ -721,6 +721,28 @@
     "@graphql-tools/utils" "^8.8.0"
     "tslib" "~2.4.0"
 
+"@graphql-codegen/typescript-operations@^2.5.3":
+  "integrity" "sha512-s+pA+Erm0HeBb/D5cNrflwRM5KWhkiA5cbz4uA99l3fzFPveoQBPfRCBu0XAlJLP/kBDy64+o4B8Nfc7wdRtmA=="
+  "resolved" "https://registry.npmjs.org/@graphql-codegen/typescript-operations/-/typescript-operations-2.5.3.tgz"
+  "version" "2.5.3"
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "^2.6.2"
+    "@graphql-codegen/typescript" "^2.7.3"
+    "@graphql-codegen/visitor-plugin-common" "2.12.1"
+    "auto-bind" "~4.0.0"
+    "tslib" "~2.4.0"
+
+"@graphql-codegen/typescript-react-apollo@^3.3.3":
+  "integrity" "sha512-FixkcfEfChA1+VPkvdcK+JYnBfqhT+Nz7WJFJ3ZKVsHjwJbTWKu19cKn2nkd3EVgdhJXlNsE8DgenVMqi5X5Ug=="
+  "resolved" "https://registry.npmjs.org/@graphql-codegen/typescript-react-apollo/-/typescript-react-apollo-3.3.3.tgz"
+  "version" "3.3.3"
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "^2.6.2"
+    "@graphql-codegen/visitor-plugin-common" "2.12.1"
+    "auto-bind" "~4.0.0"
+    "change-case-all" "1.0.14"
+    "tslib" "~2.4.0"
+
 "@graphql-codegen/typescript-resolvers@2.7.3":
   "integrity" "sha512-6Yh1y7Z93H/PxF8tnUb3Bp1q+JuS31Dg5jZI1/FdXp931jW6pgK6g60+CKpxlIBcY6MNrFZkYKL/VRPTc8u00A=="
   "resolved" "https://registry.npmjs.org/@graphql-codegen/typescript-resolvers/-/typescript-resolvers-2.7.3.tgz"
@@ -2946,7 +2968,7 @@
     "extract-files" "^9.0.0"
     "form-data" "^3.0.0"
 
-"graphql-tag@^2.11.0", "graphql-tag@^2.12.6":
+"graphql-tag@^2.0.0", "graphql-tag@^2.11.0", "graphql-tag@^2.12.6":
   "integrity" "sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg=="
   "resolved" "https://registry.npmjs.org/graphql-tag/-/graphql-tag-2.12.6.tgz"
   "version" "2.12.6"
